@@ -6,7 +6,7 @@ const Hero = () => {
     <>
     <div className='max-w-500 m-auto'>
         
-    <div className='flex flex-direction-col justify-center h-[500px] gap-6 mt-10 mx-10 mb-10 '>
+    <div className='flex flex-direction-col justify-center h-[500px] gap-6 mt-10 mx-10 mb-10 px-15 '>
       <div className='bg-stone-100 rounded-xl flex'>
         <div className='flex flex-col items-start justify-center pl-4'>
           <button className='bg-blue-700 text-white px-4 py-2 mb-6 rounded-xs'>Mobile</button>

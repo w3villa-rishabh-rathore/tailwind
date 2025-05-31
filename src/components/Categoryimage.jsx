@@ -2,7 +2,8 @@ import React from "react";
 
 const Categoryimage = () => {
   return (
-    <div className="flex gap-6  items-center bg-white py-4 max-w-500 m-auto px-25 ">
+
+    <div className="flex gap-6 justify-around items-center bg-white py-4 max-w-500 m-auto px-25 ">
       
       <div className="relative w-80 h-100">
         <img

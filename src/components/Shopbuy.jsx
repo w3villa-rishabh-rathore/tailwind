@@ -11,7 +11,7 @@ const Shopbuy = () => {
     </div>
     
     <div className='flex justify-evenly items-center flex-col max-w-500 m-auto bg-white p-4 rounded '>
-    <div className='flex justify-evenly items-center gap-4 px-25 '>
+    <div className='flex justify-around items-center gap-10 px-25 py-2'>
             <div className='flex items-center justify-center bg-gray-10 rounded w-30 h-30 text-gray-100 font-bold border border-gray-300 '>
                 <img className='' src="https://img.freepik.com/premium-vector/black-white-logo-with-palm-trees-houses_1282758-25.jpg" alt="" />
             </div>

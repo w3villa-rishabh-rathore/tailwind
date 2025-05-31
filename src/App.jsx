@@ -18,6 +18,7 @@ import Shopbuy from "./components/Shopbuy";
 import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import Post from "./components/Post"
+import Testemonial from "./components/Testemonial";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <Gallery/>
             <Blog/>
             <Post/>
+            <Testemonial/>
       </>
   );
 }
