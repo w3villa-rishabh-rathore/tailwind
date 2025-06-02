@@ -7,7 +7,7 @@ const Shopbuy = () => {
         <div className='text-3xl font-bold text-gray-900 text-center'>
           Shop by Brands
         </div>
-        <div className='h-1 w-12 sm:w-15 my-3 bg-yellow-400 rounded-full mb-4'></div>
+        <div className='h-1 w-12 sm:w-15 my-3 bg-orange-400 rounded-full mb-4'></div>
       </div>
       
       <div className='flex justify-evenly items-center flex-col max-w-500 m-auto bg-white p-4 rounded w-full'>
@@ -41,7 +41,7 @@ const Shopbuy = () => {
           </div>
         </div>
         <div className='flex gap-2'>
-          <div className='flex h-2 w-2 rounded-full bg-yellow-600 my-4'></div>
+          <div className='flex h-2 w-2 rounded-full bg-orange-500 my-4'></div>
           <div className='flex h-2 w-2 rounded-full bg-gray-300 my-4'></div>
         </div>
       </div>

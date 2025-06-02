@@ -34,19 +34,19 @@ const Navbar = () => {
         {/* Profile, Register, Wishlist, Compare */}
         <div className='flex flex-row sm:flex-row items-center gap-2 sm:gap-4 text-sm sm:text-m text-gray-500 mb-2 sm:mb-0'>
           <div className='flex flex-col items-center gap-1 hover:text-gray-900'>
-            <div ><CgProfile/></div>
+            <div ><CgProfile className='text-2xl'/></div>
             <div>Login</div>
           </div>
           <div className='flex flex-col items-center gap-1 hover:text-gray-900'>
-            <div ><HiMiniPencilSquare/></div>
+            <div ><HiMiniPencilSquare className='text-2xl'/></div>
             <div>Register</div>
           </div>
           <div className='flex flex-col items-center gap-1 hover:text-gray-900'>
-            <div ><IoMdHeartEmpty/></div>
+            <div ><IoMdHeartEmpty className='text-2xl'/></div>
             <div>Wishlist</div>
           </div>
           <div className='flex flex-col items-center gap-1 hover:text-gray-900'>
-            <div ><LuGitCompareArrows/></div>
+            <div ><LuGitCompareArrows className='text-2xl'/></div>
             <div>Compare</div>
           </div>
         </div>

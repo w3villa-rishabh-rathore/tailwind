@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { TiArrowSortedDown } from "react-icons/ti";
 const FeatureProduct = () => {
 
     const products = [
@@ -66,7 +66,7 @@ const FeatureProduct = () => {
         <div className='text-2xl sm:text-3xl font-bold text-gray-900 text-center'>
              Featured Products
         </div>
-        <div className='h-1 w-12 sm:w-15 my-3 bg-yellow-400 rounded-full mb-4'></div>
+        <div className='h-1 w-12 sm:w-15 my-3 bg-orange-300 rounded-full mb-4'></div>
         <div className='text-gray-400 text-sm max-w-full sm:max-w-400 text-center'>
         Display any products you want to highlight on your website. This section can be used to showcase new arrivals, bestsellers, or seasonal products that you want to draw attention to. Each Module can be customized to fit your brand and style, allowing you to create a unique shopping experience for your customers.    
          </div>
@@ -74,8 +74,11 @@ const FeatureProduct = () => {
 
     <div className='flex justify-evenly items-center  py-4 max-w-500 m-auto'>
       <div className='grid grid-cols-1 sm:grid-cols-4  text-gray-500 uppercase border border-gray-300 rounded '>
-        <div className='grid grid-cols-1 gap-2 bg-blue-500 p-2   text-center text-white font-bold'>
+        <div className='relative grid grid-cols-1 gap-2 bg-blue-700 p-2   text-center text-white font-bold'>
             Featured
+            <div className='absolute top-6 left-10 text-blue-700'>
+                            <TiArrowSortedDown className='text-4xl'/>
+                        </div>
         </div>
         <div className='grid grid-cols-1 gap-2  bg-gray-200 p-2  text-center font-bold'>
             Latest

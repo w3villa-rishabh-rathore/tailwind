@@ -2,7 +2,7 @@ import React from "react";
 
 const Categoryimage = () => {
   return (
-    <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-around items-center bg-white py-10 max-w-500 m-auto px-4 sm:px-25">
+    <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-around items-center bg-white py-0 max-w-500 m-auto px-4 sm:px-25">
       <div className="relative w-full sm:w-80 h-64 sm:h-100 mb-4 sm:mb-0">
         <img
           src="https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg"
@@ -66,7 +66,15 @@ const Categoryimage = () => {
             Home Decor
           </button>
         </div>
+      
+
       </div>
+      
+
+        <div className='flex gap-2 pb-10'>
+          <div className='flex h-2 w-2 rounded-full bg-orange-500 '></div>
+          <div className='flex h-2 w-2 rounded-full bg-gray-300 '></div>
+        </div>
     </div>
   );
 };

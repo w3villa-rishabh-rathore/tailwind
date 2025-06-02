@@ -42,6 +42,7 @@ const Gallery = () => {
             <img className='w-28 h-28 sm:w-30 sm:h-30 rounded object-cover' src="https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpbiUyMGNhcmUlMjBwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
           </div>
         </div>
+        
       </div>
     </div>
   )

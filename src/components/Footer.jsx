@@ -8,7 +8,7 @@ const Footer = () => {
           <div className='text-gray-800 text-m'>
             About Us
           </div>
-          <div className='h-1 w-15 my-3 bg-yellow-400 rounded-full mb-4 '></div>
+          <div className='h-1 w-15 my-3 bg-orange-400 rounded-full mb-4 '></div>
           <div className='flex flex-col gap-3 text-blue-800'>
             <div>About us </div>
             <div>Delivery </div>
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className='text-gray-800 text-m'>
             Customer Service
           </div>
-          <div className='h-1 w-15 my-3 bg-yellow-400 rounded-full mb-4 '></div>
+          <div className='h-1 w-15 my-3 bg-orange-400 rounded-full mb-4 '></div>
           <div className='flex flex-col gap-3 text-blue-800'>
             <div>Contact </div>
             <div>Return </div>
@@ -34,7 +34,7 @@ const Footer = () => {
           <div className='text-gray-800 text-m'>
             My Account
           </div>
-          <div className='h-1 w-15 my-3 bg-yellow-400 rounded-full mb-4 '></div>
+          <div className='h-1 w-15 my-3 bg-orange-400 rounded-full mb-4 '></div>
           <div className='flex flex-col gap-3 text-blue-800'>
             <div>My Account </div>
             <div>Order History </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className='text-gray-800 text-m '>
             Newsletter
           </div>
-          <div className='h-1 w-15 my-3 bg-yellow-400 rounded-full mb-4 '></div>
+          <div className='h-1 w-15 my-3 bg-orange-400 rounded-full mb-4 '></div>
           <div className='flex flex-col gap-3 text-gray-500'>
             <div className='text-wrap w-full sm:w-60'>
               Stay up to date with news and promotions by signing up for our newsletter

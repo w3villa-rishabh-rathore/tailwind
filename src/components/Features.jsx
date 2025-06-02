@@ -10,8 +10,8 @@ const Features = () => {
     <div className='bg-gray-600'>
       <div className='flex flex-col sm:flex-row justify-between items-center px-4 sm:px-25 max-w-full sm:max-w-500 m-auto text-white text-sm h-auto sm:h-25 py-10 sm:py-0 gap-4 sm:gap-0'>
         <div className='flex items-center w-full sm:w-auto'>
-          <div className='flex items-center pt-1 pb-1 pl-2 rounded w-11 h-10 bg-blue-500'>
-            <FaShippingFast className='text-2xl' />
+          <div className='flex items-center pt-1 pb-1 pl-2 rounded-full w-11 h-10  border-2 border-blue-600'>
+            <FaShippingFast className='text-2xl text-amber-400' />
           </div>
           <div className='flex flex-col items-left px-4'>
             <div className='font-bold'>
@@ -23,8 +23,8 @@ const Features = () => {
           </div>
         </div>
         <div className='flex items-center w-full sm:w-auto'>
-          <div className='flex items-center pt-1 pb-1 pl-2 rounded w-11 h-10 bg-blue-500'>
-            <GiReturnArrow className='text-2xl' />
+           <div className='flex items-center pt-1 pb-1 pl-2 rounded-full w-11 h-10  border-2 border-blue-600'>
+            <GiReturnArrow className='text-2xl text-amber-400' />
           </div>
           <div className='flex flex-col items-left px-4'>
             <div className='font-bold'>
@@ -36,8 +36,8 @@ const Features = () => {
           </div>
         </div>
         <div className='flex items-center w-full sm:w-auto'>
-          <div className='flex items-center pt-1 pb-1 pl-2 rounded w-11 h-10 bg-blue-500'>
-            <MdOutlineSecurity className='text-2xl' />
+          <div className='flex items-center pt-1 pb-1 pl-2 rounded-full w-11 h-10  border-2 border-blue-600'>
+            <MdOutlineSecurity className='text-2xl text-amber-400' />
           </div>
           <div className='flex flex-col items-left px-4'>
             <div className='font-bold'>
@@ -49,8 +49,8 @@ const Features = () => {
           </div>
         </div>
         <div className='flex items-center w-full sm:w-auto'>
-          <div className='flex items-center pt-1 pb-1 pl-2 rounded w-11 h-10 bg-blue-500'>
-            <SiCodeblocks className='text-2xl' />
+           <div className='flex items-center pt-1 pb-1 pl-2 rounded-full w-11 h-10  border-2 border-blue-600'>
+            <SiCodeblocks className='text-2xl text-amber-400' />
           </div>
           <div className='flex flex-col items-left px-2'>
             <div className='font-bold'>

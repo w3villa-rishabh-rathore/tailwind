@@ -7,15 +7,21 @@ const Optionbar = () => {
     <div className='bg-blue-500'>
       <div className='flex flex-col sm:flex-row justify-between items-center px-4 sm:px-25 gap-4 sm:gap-10 max-w-full sm:max-w-500 m-auto text-white text-base sm:text-lg h-auto sm:h-15 py-2 sm:py-0'>
         <div className='flex flex-col sm:flex-row items-start sm:items-center uppercase gap-2 sm:gap-4 w-full sm:w-auto'>
-            <div className='bg-yellow-400 h-12 sm:h-15 flex items-center px-4 text-black font-bold w-full sm:w-auto'>
+            <div className='relative bg-yellow-400 h-12 sm:h-15 flex items-center px-4 text-black font-bold w-full sm:w-auto'>
                 <HiMenuAlt2 className='text-2xl' />
                 <span className='ml-2'>All Departments</span>
+                <div className='absolute bottom-12 right-1 bg-orange-600 p-1 rounded text-white text-sm'>
+                    Sale
+                </div>
             </div>
             <div className='flex items-center px-4 font-bold w-full sm:w-auto'>
                 Multilevel
             </div>
-            <div className='flex items-center px-4 font-bold w-full sm:w-auto'>
+            <div className='relative flex items-center px-4 font-bold w-full sm:w-auto'>
                 Mega Menu
+                <div className='absolute bottom-8 right-3 bg-yellow-400 text-white text-sm rounded p-1'>
+                    New
+                </div>
             </div>
             <div className='flex items-center px-4 font-bold w-full sm:w-auto'>
                 FullWidth

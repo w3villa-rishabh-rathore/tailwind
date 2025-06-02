@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className='max-w-500 m-auto'>
-        <div className='flex flex-col lg:flex-row justify-center h-auto lg:h-[500px] gap-6 mt-6 lg:mt-10 mx-2 lg:mx-10 mb-6 lg:mb-10 px-2 lg:px-15'>
+        <div className='flex flex-col lg:flex-row justify-center h-auto lg:h-[500px] gap-4 mt-2 lg:mt-5 mx-2 lg:mx-4 mb-6 lg:mb-5 px-2 lg:px-15'>
           {/* Main Hero Section */}
           <div className='bg-stone-100 rounded-xl flex flex-col lg:flex-row w-full'>
             <div className='flex flex-col items-start justify-center p-4 w-full lg:w-auto'>
@@ -21,14 +21,14 @@ const Hero = () => {
                 <p className='text-blue-700 font-medium text-lg lg:text-xl'>WEARABLES</p>
                 <p className='text-xl lg:text-2xl font-medium'>Intelligent & Durable Design</p>
               </div>
-              <img className='h-32 w-full lg:h-56 lg:w-1/2 object-cover rounded-xl' src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSsoL4I9e-Wrz16hJUbMPPSnQ7zPELQciG1vOH3WZ2Hf9yD1bHeP_q808v6PtG_8IKBt04zJK5iZXl0KbDns32YStBYSjQ_Qdn43r1mnU7rJghOS8bw6syR" alt="" />
+              <img className='h-32 w-full lg:h-56 lg:w-1/2 object-cover rounded-xl' src="https://static.vecteezy.com/system/resources/previews/046/829/689/non_2x/smart-watch-isolated-on-transparent-background-png.png" alt="" />
             </div>
             <div className='bg-stone-100 h-48 lg:h-60 flex flex-col lg:flex-row justify-between items-center px-4 pr-1 rounded-xl'>
               <div className='mb-2 lg:mb-0'>
                 <p className='text-blue-700 font-medium text-lg lg:text-xl'>COMPUTERS</p>
                 <p className='text-xl lg:text-2xl font-medium'>Build your own high powered PC</p>
               </div>
-              <img className='h-32 w-full lg:h-56 lg:w-1/2 object-cover rounded-xl' src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRsPnJCdYBFpQteLcQdi7lSIHxI94whA61SctqmoKyaPJeuYLG8Uh-coIxWIOwx4x1DmUU7lRPdN0gssICioSs-LAfRz-HCNTxy4fV8DBL7jGM-exkEm9VJmQ" alt="" />
+              <img className='h-32 w-full lg:h-56 lg:w-1/2 object-cover rounded-xl' src="https://wallpapers.com/images/hd/high-performance-gaming-setup-40r9a3bp9qs31xqb.png" alt="" />
             </div>
           </div>
         </div>
