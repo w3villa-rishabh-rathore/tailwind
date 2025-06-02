@@ -47,16 +47,71 @@ const FeatureCateorycard = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-gray-100 w-70 h-90'>
+            <div className='bg-white w-70 h-90'>
 
+                <div className='flex flex-col'>
+                    <div className='relative overflow-hidden'>
+                        <img className='w-65 h-65  mx-1 my-1'  src="" alt="" />
+                        <p className='absolute bottom-56 right-5 bg-blue-600 p-1 text-white font-bold rounded text-sm' >New</p>
+                        <p className='bg-red-500 w-40 text-center absolute bottom-55 text-white font-bold right-40  rotate-z-315'>2-3 DAYS</p>
+                    </div>
+
+                    <p className='text-blue-700 px-3 '>Bodycorn Dress</p>
+                    <p className='px-3 border-b-1 pb-1 border-gray-300'>$399.00</p>
+
+                    <div className='flex justify-between px-4 py-2 items-center '>
+                        <p className='bg-blue-800 px-1 rounded text-white text-sm'>Add to cart</p>
+                        <div className='flex gap-4'>
+                            <LuHeart/>
+                            <LuSquareArrowOutUpRight/>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='bg-gray-100 w-70 h-90'>
+            <div className='bg-white w-70 h-90'>
 
+                <div className='flex flex-col'>
+                    <div className='relative overflow-hidden'>
+                        <img className='w-65 h-65  mx-1 my-1'  src="" alt="" />
+                        <p className='absolute bottom-56 right-5 bg-blue-600 p-1 text-white font-bold rounded text-sm' >New</p>
+                        <p className='bg-red-500 w-40 text-center absolute bottom-55 text-white font-bold right-40  rotate-z-315'>2-3 DAYS</p>
+                    </div>
+
+                    <p className='text-blue-700 px-3 '>Bodycorn Dress</p>
+                    <p className='px-3 border-b-1 pb-1 border-gray-300'>$399.00</p>
+
+                    <div className='flex justify-between px-4 py-2 items-center '>
+                        <p className='bg-blue-800 px-1 rounded text-white text-sm'>Add to cart</p>
+                        <div className='flex gap-4'>
+                            <LuHeart/>
+                            <LuSquareArrowOutUpRight/>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className='bg-gray-100 w-70 h-90'>
+            <div className='bg-white w-70 h-90'>
 
+                <div className='flex flex-col'>
+                    <div className='relative overflow-hidden'>
+                        <img className='w-65 h-65  mx-1 my-1'  src="" alt="" />
+                        <p className='absolute bottom-56 right-5 bg-blue-600 p-1 text-white font-bold rounded text-sm' >New</p>
+                        <p className='bg-red-500 w-40 text-center absolute bottom-55 text-white font-bold right-40  rotate-z-315'>2-3 DAYS</p>
+                    </div>
+
+                    <p className='text-blue-700 px-3 '>Bodycorn Dress</p>
+                    <p className='px-3 border-b-1 pb-1 border-gray-300'>$399.00</p>
+
+                    <div className='flex justify-between px-4 py-2 items-center '>
+                        <p className='bg-blue-800 px-1 rounded text-white text-sm'>Add to cart</p>
+                        <div className='flex gap-4'>
+                            <LuHeart/>
+                            <LuSquareArrowOutUpRight/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
 
       </div>
     
