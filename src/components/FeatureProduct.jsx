@@ -62,18 +62,18 @@ const FeatureProduct = () => {
     
     <div className='bg-gray-50 '>
 
-    <div className='flex justify-evenly items-center flex-col max-w-500 m-auto p-4 rounded w-300'>
-        <div className='text-3xl font-bold text-gray-900'>
-            Featured Products
+    <div className='flex flex-col justify-evenly items-center max-w-500 m-auto p-4 rounded w-full sm:w-300'>
+        <div className='text-2xl sm:text-3xl font-bold text-gray-900 text-center'>
+             Featured Products
         </div>
-        <div className='h-1 w-15 my-3 bg-yellow-400 rounded-full mb-4 '></div>
-        <div className='text-gray-400 text-sm max-w-400 text-center'>
-            Display any products you want to highlight on your website. This section can be used to showcase new arrivals, bestsellers, or seasonal products that you want to draw attention to. Each Module can be customized to fit your brand and style, allowing you to create a unique shopping experience for your customers.    
-        </div>
-    </div>
+        <div className='h-1 w-12 sm:w-15 my-3 bg-yellow-400 rounded-full mb-4'></div>
+        <div className='text-gray-400 text-sm max-w-full sm:max-w-400 text-center'>
+        Display any products you want to highlight on your website. This section can be used to showcase new arrivals, bestsellers, or seasonal products that you want to draw attention to. Each Module can be customized to fit your brand and style, allowing you to create a unique shopping experience for your customers.    
+         </div>
+      </div>
 
     <div className='flex justify-evenly items-center  py-4 max-w-500 m-auto'>
-      <div className='grid grid-cols-4  text-gray-500 uppercase border border-gray-300 rounded '>
+      <div className='grid grid-cols-1 sm:grid-cols-4  text-gray-500 uppercase border border-gray-300 rounded '>
         <div className='grid grid-cols-1 gap-2 bg-blue-500 p-2   text-center text-white font-bold'>
             Featured
         </div>

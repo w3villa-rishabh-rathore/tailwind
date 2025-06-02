@@ -19,6 +19,10 @@ import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import Post from "./components/Post"
 import Testemonial from "./components/Testemonial";
+import Mostviewed from "./components/Mostviewed";
+import Social from "./components/Social";
+import Footer from "./components/Footer";
+import Subfooter from "./components/Subfooter";
 
 
 function App() {
@@ -43,6 +47,10 @@ function App() {
             <Blog/>
             <Post/>
             <Testemonial/>
+            <Mostviewed/>
+            <Social/>
+            <Footer/>
+            <Subfooter/>
       </>
   );
 }
