@@ -62,7 +62,7 @@ const FeatureProduct = () => {
     
     <div className='bg-gray-50 '>
 
-    <div className='flex flex-col justify-evenly items-center max-w-500 m-auto p-4 rounded w-full sm:w-300'>
+    <div className='flex flex-col justify-evenly items-center max-w-500 m-auto p-10 rounded w-full sm:w-300'>
         <div className='text-2xl sm:text-3xl font-bold text-gray-900 text-center'>
              Featured Products
         </div>

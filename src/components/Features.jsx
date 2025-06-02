@@ -8,7 +8,7 @@ import { SiCodeblocks } from "react-icons/si";
 const Features = () => {
   return (
     <div className='bg-gray-600'>
-      <div className='flex flex-col sm:flex-row justify-between items-center px-4 sm:px-25 max-w-full sm:max-w-500 m-auto text-white text-sm h-auto sm:h-25 py-4 sm:py-0 gap-4 sm:gap-0'>
+      <div className='flex flex-col sm:flex-row justify-between items-center px-4 sm:px-25 max-w-full sm:max-w-500 m-auto text-white text-sm h-auto sm:h-25 py-10 sm:py-0 gap-4 sm:gap-0'>
         <div className='flex items-center w-full sm:w-auto'>
           <div className='flex items-center pt-1 pb-1 pl-2 rounded w-11 h-10 bg-blue-500'>
             <FaShippingFast className='text-2xl' />

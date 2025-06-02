@@ -2,8 +2,8 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className='bg-gray-50'>
-      <div className='flex justify-evenly items-center flex-col max-w-500 m-auto p-6 sm:p-10 rounded w-full sm:w-300'>
+    <div className='bg-neutral-100'>
+      <div className='flex justify-evenly items-center flex-col max-w-500 m-auto p-10 sm:p-10 rounded w-full sm:w-300'>
         <div className='text-2xl sm:text-3xl font-bold text-gray-900 text-center'>
           From our Blogs
         </div>

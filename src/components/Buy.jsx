@@ -2,7 +2,7 @@ import React from 'react'
 
 const Buy = () => {
   return (
-    <div className='flex flex-col justify-evenly items-center max-w-500 m-auto bg-white p-6 sm:p-10 rounded w-full sm:w-300'>
+    <div className='flex flex-col justify-evenly items-center max-w-500 m-auto bg-white p-10 sm:p-10 rounded w-full sm:w-300'>
         <div className='text-2xl sm:text-3xl font-bold text-gray-900 text-center'>
             Why Buy From Us?
         </div>

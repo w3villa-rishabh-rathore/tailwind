@@ -2,7 +2,7 @@ import React from "react";
 
 const Categoryimage = () => {
   return (
-    <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-around items-center bg-white py-4 max-w-500 m-auto px-4 sm:px-25">
+    <div className="flex flex-col sm:flex-row flex-wrap gap-6 justify-around items-center bg-white py-10 max-w-500 m-auto px-4 sm:px-25">
       <div className="relative w-full sm:w-80 h-64 sm:h-100 mb-4 sm:mb-0">
         <img
           src="https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg"
